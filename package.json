@@ -1,0 +1,45 @@
+{
+  "name": "testexpressapp",
+  "version": "1.0.0",
+  "description": "React SPA",
+  "main": "server/index.js",
+  "scripts": {
+    "start:dev": "webpack -w & nodemon server",
+    "start": "node ./server"
+  },
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "express": "^4.16.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "material-ui": "^1.0.0-beta.44",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.12.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-dropzone": "^4.2.9",
+    "react-image-webp": "^0.2.2",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "typeface-roboto": "0.0.54",
+    "webpack-cli": "^2.0.13"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.4.1"
+  }
+}
